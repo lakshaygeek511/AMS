@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="role_array">
+        <item>Select Role</item>
+        <item>Developer</item>
+        <item>Admin</item>
+        <item>Manager</item>
+    </string-array>
+
+    <string-array name="team_array">
+        <item>Select Team</item>
+        <item>OSS</item>
+        <item>YNA</item>
+        <item>SAP</item>
+        <item>INFRA</item>
+    </string-array>
+
+    <string-array name="status_array">
+        <item>Select Status</item>
+        <item>Alloted</item>
+        <item>Unalloted</item>
+        <item>Damaged</item>
+    </string-array>
+
+
+    <string-array name="asset_type_array">
+        <item>Select Asset Type</item>
+        <item>Laptop</item>
+        <item>Mouse</item>
+        <item>Desktop</item>
+        <item>Phone</item>
+        <item>Watch</item>
+    </string-array>
+
+    <string-array name="location_array">
+        <item>Select Location</item>
+        <item>Surajpur</item>
+        <item>Faridabad</item>
+    </string-array>
+
+    <string-array name="period_array">
+        <item>Month</item>
+        <item>Year</item>
+    </string-array>
+
+</resources>

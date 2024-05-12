@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".views.FWP.FWPActivity"
+        android:background="@drawable/joinusbg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/back"
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="32dp"
+                android:fontFamily="@font/gotham"
+                android:gravity="center_horizontal"
+                android:shadowColor="#57000000"
+                android:text="@string/fwp_text"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                app:drawableLeftCompat="@drawable/ic_keyboard_arrow_left_black_24dp" />
+
+            <ImageView
+                android:id="@+id/forget_icon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/forget"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="25dp"
+                android:alpha="0.9"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:id="@+id/phone_layout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center_vertical"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/phone_icon"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@drawable/mobile_no_icon"
+                    app:tint="@color/white" />
+
+                    <EditText
+                        android:id="@+id/phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/edittext_background"
+                        android:fontFamily="@font/calibri"
+                        android:hint="Enter Phone No"
+                        android:textColorHint="@color/black"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:padding="0dp"
+                        android:paddingStart="8dp"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="210dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="44dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/buttonshape2"
+                android:fontFamily="@font/gotham"
+                android:text="Get OTP"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:progressBackgroundTint="#001925"
+            android:progressTint="#89FF00"/>
+
+    </RelativeLayout>
+</layout>

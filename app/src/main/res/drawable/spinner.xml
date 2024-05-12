@@ -1,0 +1,11 @@
+<!-- res/drawable/spinner.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:right="1dp" android:left="1dp" android:top="1dp" android:bottom="1dp">
+        <shape>
+            <solid android:color="@color/white" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+</layer-list>

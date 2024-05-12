@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".views.Login.LoginActivity"
+        android:background="@drawable/joinusbg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/signin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="@font/gotham"
+                android:gravity="center"
+                android:shadowColor="#57000000"
+                android:text="@string/signin_text"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/signin_icon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/splash"
+                android:layout_gravity="center"
+                android:layout_marginBottom="55dp"/>
+
+            <LinearLayout
+                android:id="@+id/name_layout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginRight="25dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/name_icon"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@drawable/user_name_icon"
+                    app:tint="@color/white" />
+
+
+                    <EditText
+                        android:id="@+id/id"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/edittext_background"
+                        android:fontFamily="@font/calibri"
+                        android:hint="Enter EIN"
+                        android:textColorHint="@color/black"
+                        android:inputType="text"
+                        android:maxLength="9"
+                        android:padding="0dp"
+                        android:paddingStart="8dp"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/pass_layout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginRight="25dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/pass_icon"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@drawable/key"
+                    app:tint="@color/white" />
+
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/edittext_background"
+                        android:fontFamily="@font/calibri"
+                        android:hint="Enter Password"
+                        android:textColorHint="@color/black"
+                        android:inputType="textPassword"
+                        android:padding="0dp"
+                        android:paddingStart="8dp"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="210dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttonshape2"
+                android:fontFamily="@font/gotham"
+                android:text="Sign In"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/msg"
+                android:visibility="invisible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="@font/calibri"
+                android:gravity="center"
+                android:shadowColor="#57000000"
+                android:text="@string/signin_succesful"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>
