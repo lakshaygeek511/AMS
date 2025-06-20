@@ -2,6 +2,14 @@
 
 A robust Android application developed to streamline IT asset allocation and management, leveraging local storage for efficient data handling. Built with modern development practices, AMS enhances user experience through intuitive interfaces, and reduces integration complexities.
 
+## 🎨 UI/UX Design Highlights
+
+- **Clean Interface**: Designed using **Material Design** principles for intuitive navigation.
+- **Interactive Dashboard**: Visual representation of key asset data.
+- **Modular Layout**: Implemented using **MVVM** architecture for scalability.
+
+![WhatsApp Image 2024-12-18 at 00 33 30_0e68e91b](https://github.com/user-attachments/assets/1679c0ea-b4b8-4ef5-a3cc-2b1fd83449b5)
+
 # 🔐 Login Details
 Use the following credentials for initial access:
 
@@ -68,15 +76,6 @@ Password: Admin@123
    - Filter and search for specific asset records.
 
 ---
-
-## 🎨 UI/UX Design Highlights
-
-- **Clean Interface**: Designed using **Material Design** principles for intuitive navigation.
-- **Interactive Dashboard**: Visual representation of key asset data.
-- **Modular Layout**: Implemented using **MVVM** architecture for scalability.
-
-![WhatsApp Image 2024-12-18 at 00 33 30_0e68e91b](https://github.com/user-attachments/assets/1679c0ea-b4b8-4ef5-a3cc-2b1fd83449b5)
-
 ## 📂 Folder Structure
 
 ```plaintext
