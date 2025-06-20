@@ -1,6 +1,6 @@
 # Shuffle (Asset Management System) 🛠️
 
-A robust Android application developed to streamline IT asset allocation and management, leveraging local storage for efficient data handling. Built with modern Android development practices, AMS enhances user experience through intuitive interfaces, and reduces integration complexities.
+A robust Android application developed to streamline IT asset allocation and management, leveraging local storage for efficient data handling. Built with modern development practices, AMS enhances user experience through intuitive interfaces, and reduces integration complexities.
 
 # 🔐 Login Details
 Use the following credentials for initial access:
