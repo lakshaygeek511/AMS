@@ -2,6 +2,12 @@
 
 A robust Android application developed to streamline IT asset allocation and management, leveraging local storage for efficient data handling. Built with modern development practices, AMS enhances user experience through intuitive interfaces, and reduces integration complexities.
 
+# 🔐 Login Details
+Use the following credentials for initial access:
+
+Username: VE00ADMIN
+Password: Admin@123
+
 ## 🎨 UI/UX Design Highlights
 
 - **Clean Interface**: Designed using **Material Design** principles for intuitive navigation.
@@ -9,12 +15,6 @@ A robust Android application developed to streamline IT asset allocation and man
 - **Modular Layout**: Implemented using **MVVM** architecture for scalability.
 
 ![WhatsApp Image 2024-12-18 at 00 33 30_0e68e91b](https://github.com/user-attachments/assets/1679c0ea-b4b8-4ef5-a3cc-2b1fd83449b5)
-
-# 🔐 Login Details
-Use the following credentials for initial access:
-
-Username: VE00ADMIN
-Password: Admin@123
 
 ## 🚀 Features
 
