@@ -4,9 +4,11 @@ A robust Android application developed to streamline IT asset allocation and man
 
 # 🔐 Login Details
 Use the following credentials for initial access:
-
 Username: VE00ADMIN
 Password: Admin@123
+
+Download Shuffle : https://drive.google.com/file/d/1Upt3qQ9PUr2dodnLvbJyW-Bc22PZgky2/view
+
 
 ## 🎨 UI/UX Design Highlights
 
